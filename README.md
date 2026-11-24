@@ -1,7 +1,7 @@
 # Openclaw
 # OpenClaw In-Vehicle Assistant Evaluation
 
-Code, test commands, and trial-level results for the paper "A Feasibility Study of OpenClaw Agent Framework for In-Vehicle AI Assistants".
+Code, test commands, and trial-level results for the paper "A Feasibility Study on OpenClaw Agent Framework for In-Vehicle AI Assistants".
 
 The experiment used three computers. Computer A ran the CARLA 0.9.16 simulator, Computer B ran OpenClaw with the workspace skills, and Computer C ran the direct function-calling baseline.
 
@@ -128,7 +128,7 @@ python baseline/run_baseline.py --sublevel all --conditions N,P --round 1
 
 # OpenClaw 차량 내 AI 비서 평가
 
-논문 "A Feasibility Study of OpenClaw Agent Framework for In-Vehicle AI Assistants"의 코드, 테스트 명령, 시행별 결과입니다. 영어 설명은 `README.md`에 있습니다.
+논문 "A Feasibility Study on OpenClaw Agent Framework for In-Vehicle AI Assistants"의 코드, 테스트 명령, 시행별 결과입니다. 영어 설명은 `README.md`에 있습니다.
 
 실험에는 컴퓨터 세 대를 사용했습니다. 컴퓨터 A는 CARLA 0.9.16 시뮬레이터, 컴퓨터 B는 워크스페이스 스킬을 설치한 OpenClaw, 컴퓨터 C는 직접 함수 호출 비교 시스템을 실행했습니다.
 
