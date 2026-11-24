@@ -1,0 +1,16 @@
+{
+  "_note": "Test user data for 5-4 / 5-5. Replace with the data used in the original experiment.",
+  "visits": [
+    {"place": "스타벅스 성신여대점", "category": "카페", "visited_at": "2026-09-01"},
+    {"place": "스타벅스 성신여대점", "category": "카페", "visited_at": "2026-09-08"},
+    {"place": "스타벅스 성신여대점", "category": "카페", "visited_at": "2026-09-15"},
+    {"place": "탐앤탐스 성신여대점", "category": "카페", "visited_at": "2026-09-03"},
+    {"place": "탐앤탐스 성신여대점", "category": "카페", "visited_at": "2026-09-10"},
+    {"place": "카페 온더플랜", "category": "카페", "visited_at": "2026-09-05"}
+  ],
+  "preferences": {
+    "favorite_cafe": "스타벅스 성신여대점",
+    "favorite_artists": ["Charlie Puth", "Bruno Mars"],
+    "music_genres": ["pop", "rnb"]
+  }
+}

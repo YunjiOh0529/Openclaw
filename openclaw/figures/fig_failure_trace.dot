@@ -1,0 +1,17 @@
+digraph G {
+  rankdir=LR; dpi=300; nodesep=0.6; ranksep=0.6; newrank=true;
+  node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=15, color="#3d3c39", fillcolor="#fcfcfb", margin="0.3,0.18", width=3.0, penwidth=2.6];
+  edge [color="#52514e", arrowsize=1.1, penwidth=1.6, fontname="DejaVu Sans", fontsize=8.5, fontcolor="#52514e"];
+  u  [label=<<b>1. Driver</b><br/>"It seems a bit dark">];
+  a1 [label=<<b>2. Agent</b><br/>reads level-4 SKILL.md and<br/>passes the statement to<br/>the level-4 skill script>];
+  s  [label=<<b>3. Skill output</b><br/>no keyword matched, no action<br/>"What can I help you with?">];
+  a2 [label=<<b>4. Agent response</b><br/>"It's dark around you, so I<br/>turned on the headlights.">, color="#e34948", penwidth=2.6];
+  v  [label=<<b>5. Simulator check</b><br/>light state after the trial:<br/><b>all off</b>  →  judged as failure>, color="#e34948", penwidth=2.6];
+  { rank=same; u; v; }
+  { rank=same; a1; a2; }
+  u -> a1 -> s;
+  s -> a2 [constraint=false];
+  v -> a2 [dir=back];
+  u -> v [style=invis];
+  a1 -> a2 [style=invis];
+}

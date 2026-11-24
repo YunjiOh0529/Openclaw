@@ -1,0 +1,12 @@
+{
+  "GEMINI_API_KEY": "",
+  "GEMINI_MODEL": "gemini-3.1-pro-preview",
+  "GOOGLE_PLACES_API_KEY": "",
+  "NAVER_CLIENT_ID": "",
+  "NAVER_CLIENT_SECRET": "",
+  "LASTFM_API_KEY": "",
+  "OPENWEATHER_API_KEY": "",
+  "POI_CENTER_LAT": "37.5913",
+  "POI_CENTER_LNG": "127.0221",
+  "POI_RADIUS_M": "1000"
+}

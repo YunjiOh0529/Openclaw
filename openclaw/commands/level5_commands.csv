@@ -1,0 +1,64 @@
+﻿sublevel,cmd_id,condition,target_skill,command,expected
+5-1,POI-1,E,poi-google-place,poi-google-place로 성신여대 근처 약국 추천해줘,성신여대 반경 1km 내 약국 (이름·주소·평점)
+5-1,POI-1,N,poi-google-place,성신여대 근처 약국 추천해줘,성신여대 반경 1km 내 약국 (이름·주소·평점)
+5-1,POI-1,P,poi-google-place,머리가 아픈데 성신여대 근처에서 약 살 수 있는 데 있어?,성신여대 반경 1km 내 약국 (이름·주소·평점)
+5-1,POI-2,E,poi-google-place,poi-google-place로 성신여대 근처 카페 추천해줘,성신여대 반경 1km 내 카페
+5-1,POI-2,N,poi-google-place,성신여대 근처 카페 추천해줘,성신여대 반경 1km 내 카페
+5-1,POI-2,P,poi-google-place,성신여대 근처에서 커피 마시면서 공부할 만한 데 있어?,성신여대 반경 1km 내 카페
+5-1,POI-3,E,poi-google-place,poi-google-place로 근처 주유소 알려줘,현재 위치 반경 1km 내 주유소
+5-1,POI-3,N,poi-google-place,근처 주유소 알려줘,현재 위치 반경 1km 내 주유소
+5-1,POI-3,P,poi-google-place,연료가 거의 다 떨어졌는데 어디로 가면 돼?,현재 위치 반경 1km 내 주유소
+5-1,POI-4,E,poi-google-place,poi-google-place로 근처 편의점 알려줘,현재 위치 반경 1km 내 편의점
+5-1,POI-4,N,poi-google-place,근처 편의점 알려줘,현재 위치 반경 1km 내 편의점
+5-1,POI-4,P,poi-google-place,물이랑 간단한 간식 살 데 가까운 데 있어?,현재 위치 반경 1km 내 편의점
+5-1,POI-5,E,poi-google-place,poi-google-place로 근처 식당 추천해줘,현재 위치 반경 1km 내 식당
+5-1,POI-5,N,poi-google-place,근처 식당 추천해줘,현재 위치 반경 1km 내 식당
+5-1,POI-5,P,poi-google-place,배고픈데 이 근처에서 밥 먹을 만한 데 있어?,현재 위치 반경 1km 내 식당
+5-2,NEWS-1,E,naver-local-search,naver-local-search로 오늘 스포츠 뉴스 알려줘,실행 당일 날짜의 스포츠 기사
+5-2,NEWS-1,N,naver-local-search,오늘 스포츠 뉴스 알려줘,실행 당일 날짜의 스포츠 기사
+5-2,NEWS-1,P,naver-local-search,오늘 야구 경기 결과 어떻게 됐어?,실행 당일 날짜의 야구(스포츠) 기사
+5-2,NEWS-2,E,naver-local-search,naver-local-search로 오늘 경제 뉴스 알려줘,실행 당일 날짜의 경제 기사
+5-2,NEWS-2,N,naver-local-search,오늘 경제 뉴스 알려줘,실행 당일 날짜의 경제 기사
+5-2,NEWS-2,P,naver-local-search,오늘 주식 시장 분위기 어땠어?,실행 당일 날짜의 증시 기사
+5-2,NEWS-3,E,naver-local-search,naver-local-search로 어제 IT 뉴스 알려줘,실행 전날 날짜의 IT 기사
+5-2,NEWS-3,N,naver-local-search,어제 IT 뉴스 알려줘,실행 전날 날짜의 IT 기사
+5-2,NEWS-3,P,naver-local-search,어제 테크 업계에서 화제된 거 있어?,실행 전날 날짜의 IT·테크 기사
+5-2,NEWS-4,E,naver-local-search,naver-local-search로 오늘 정치 뉴스 알려줘,실행 당일 날짜의 정치 기사
+5-2,NEWS-4,N,naver-local-search,오늘 정치 뉴스 알려줘,실행 당일 날짜의 정치 기사
+5-2,NEWS-4,P,naver-local-search,오늘 국회에서 무슨 일 있었어?,실행 당일 날짜의 국회·정치 기사
+5-2,NEWS-5,E,naver-local-search,naver-local-search로 오늘 연예 뉴스 알려줘,실행 당일 날짜의 연예 기사
+5-2,NEWS-5,N,naver-local-search,오늘 연예 뉴스 알려줘,실행 당일 날짜의 연예 기사
+5-2,NEWS-5,P,naver-local-search,오늘 연예인 중에 화제된 사람 있어?,실행 당일 날짜의 연예 기사
+5-3,WTH-1,E,weather-search,weather-search로 지금 날씨 어때?,서울 현재 날씨·기온·습도가 실행 시점 실제와 일치
+5-3,WTH-1,N,weather-search,지금 날씨 어때?,서울 현재 날씨·기온·습도가 실행 시점 실제와 일치
+5-3,WTH-1,P,weather-search,지금 나가려는데 겉옷 챙겨야 할까?,현재 기온 근거로 답함 (실행 시점 실제와 일치)
+5-3,WTH-2,E,weather-search,weather-search로 오늘 비 와?,오늘 강수 여부·확률이 실행 시점 예보와 일치
+5-3,WTH-2,N,weather-search,오늘 비 와?,오늘 강수 여부·확률이 실행 시점 예보와 일치
+5-3,WTH-2,P,weather-search,오늘 세차해도 괜찮을까?,강수 정보 근거로 답함 (실행 시점 예보와 일치)
+5-4,MEM-1,E,memory-pattern,memory-pattern으로 내가 자주 가는 곳 추천해줘,방문 기록 상위 장소 (스타벅스 성신여대점 3회 등)
+5-4,MEM-1,N,memory-pattern,내가 자주 가는 곳 추천해줘,방문 기록 상위 장소 (스타벅스 성신여대점 3회 등)
+5-4,MEM-1,P,memory-pattern,평소처럼 가던 데로 가고 싶은데 어디가 좋을까?,방문 기록 상위 장소 (스타벅스 성신여대점 3회 등)
+5-4,MEM-2,E,memory-personalization,memory-personalization으로 내가 좋아하는 카페 어디야?,저장된 선호 카페 (스타벅스 성신여대점)
+5-4,MEM-2,N,memory-personalization,내가 좋아하는 카페 어디야?,저장된 선호 카페 (스타벅스 성신여대점)
+5-4,MEM-2,P,memory-personalization,내 단골 커피집 이름이 뭐였지?,저장된 선호 카페 (스타벅스 성신여대점)
+5-4,MEM-3,E,memory-personalization,memory-personalization으로 내가 좋아하는 음악 장르 알려줘,저장된 선호 장르 (pop·R&B)
+5-4,MEM-3,N,memory-personalization,내가 좋아하는 음악 장르 알려줘,저장된 선호 장르 (pop·R&B)
+5-4,MEM-3,P,memory-personalization,나 평소에 어떤 스타일 노래 듣는다고 했었지?,저장된 선호 장르 (pop·R&B)
+5-5,MUS-1,E,lastfm-music,lastfm-music으로 찰리 푸스 노래 추천해줘,실제 Charlie Puth 곡
+5-5,MUS-1,N,lastfm-music,찰리 푸스 노래 추천해줘,실제 Charlie Puth 곡
+5-5,MUS-1,P,lastfm-music,찰리 푸스 곡으로 드라이브할 때 들을 거 골라줘,실제 Charlie Puth 곡
+5-5,MUS-2,E,lastfm-music,lastfm-music으로 아이유 노래 추천해줘,실제 아이유(IU) 곡
+5-5,MUS-2,N,lastfm-music,아이유 노래 추천해줘,실제 아이유(IU) 곡
+5-5,MUS-2,P,lastfm-music,아이유 곡 중에 차에서 듣기 좋은 거 있어?,실제 아이유(IU) 곡
+5-5,MUS-3,E,lastfm-music,lastfm-music으로 에드 시런 노래 추천해줘,실제 Ed Sheeran 곡
+5-5,MUS-3,N,lastfm-music,에드 시런 노래 추천해줘,실제 Ed Sheeran 곡
+5-5,MUS-3,P,lastfm-music,에드 시런 노래로 플레이리스트 좀 짜줘,실제 Ed Sheeran 곡
+5-5,MUS-4,E,lastfm-music,lastfm-music으로 내 취향에 맞는 노래 추천해줘,저장된 취향(pop·R&B·Charlie Puth 유사) 기반 곡
+5-5,MUS-4,N,lastfm-music,내 취향에 맞는 노래 추천해줘,저장된 취향(pop·R&B·Charlie Puth 유사) 기반 곡
+5-5,MUS-4,P,lastfm-music,기분 전환하게 내가 좋아할 만한 노래 틀어 줘,저장된 취향(pop·R&B·Charlie Puth 유사) 기반 곡
+5-5,MUS-5,E,lastfm-music,lastfm-music으로 드라이브할 때 들을 만한 내 스타일 노래 추천해줘,저장된 취향 기반 곡
+5-5,MUS-5,N,lastfm-music,드라이브할 때 들을 만한 내 스타일 노래 추천해줘,저장된 취향 기반 곡
+5-5,MUS-5,P,lastfm-music,운전하면서 나한테 맞는 음악 좀 골라 줄래?,저장된 취향 기반 곡
+5-5,MUS-6,E,lastfm-music,lastfm-music으로 내가 좋아하는 가수랑 비슷한 노래 추천해줘,선호 가수와 비슷한 아티스트의 곡
+5-5,MUS-6,N,lastfm-music,내가 좋아하는 가수랑 비슷한 노래 추천해줘,선호 가수와 비슷한 아티스트의 곡
+5-5,MUS-6,P,lastfm-music,평소 듣던 거랑 비슷한 느낌으로 새로운 노래 찾아줘,선호 가수와 비슷한 아티스트의 곡
