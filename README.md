@@ -1,7 +1,6 @@
-# Openclaw
 # OpenClaw In-Vehicle Assistant Evaluation
 
-Code, test commands, and trial-level results for the paper "A Feasibility Study on OpenClaw Agent Framework for In-Vehicle AI Assistants".
+Code, test commands, and trial-level results for the paper "A Feasibility Study on the OpenClaw Agent Framework for In-Vehicle AI Assistants".
 
 The experiment used three computers. Computer A ran the CARLA 0.9.16 simulator, Computer B ran OpenClaw with the workspace skills, and Computer C ran the direct function-calling baseline.
 
